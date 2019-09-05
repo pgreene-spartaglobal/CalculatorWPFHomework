@@ -13,6 +13,8 @@ The WPF calculator:
 ## Implementation
 
 ```csharp
+CalculatorUnderTest calc = new CalculatorUnderTest();
+
 private void Button_Click(object sender, RoutedEventArgs e)
 {          
   MessageBox.Show(OperationComboBox.Text);
